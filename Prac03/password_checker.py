@@ -1,7 +1,21 @@
 minimum_length = 5
-get_password = input("Please enter your password")
 
-while len(get_password) < minimum_length:
-    get_password = input("Please enter your password")
 
-print("*" * len(get_password))
+def main():
+    password = get_password(minimum_length)
+    asterisk_conversion(password)
+
+
+def get_password(minimum_length):
+    password = input("Please enter your password")
+    while len(password) < minimum_length:
+        password = input("Please enter your password")
+
+    return password
+
+
+def asterisk_conversion(print_asterisk):
+    print("*" * len(print_asterisk))
+
+
+main()
