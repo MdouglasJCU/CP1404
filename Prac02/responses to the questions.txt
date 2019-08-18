@@ -1,0 +1,26 @@
+Try This Out:
+What did you see on line 1?
+16
+What was the smallest number you could have seen, what was the largest?
+Smallest: 5 Largest: 20
+
+What did you see on line 2?
+9
+What was the smallest number you could have seen, what was the largest?
+Smallest: 3 Largest:
+9
+
+Could line 2 have produced a 4?
+No
+What did you see on line 3?
+4.024683080820179
+What was the smallest number you could have seen, what was the largest?
+Smallest: 2.50xx 	Largest:  5.49xx
+
+Exceptions:
+1.	When will a ValueError occur?
+When a user inputs a string or no value.
+2.	When will a ZeroDivisionError occur?
+If the user’s input is 0 on denominator
+3.	Could you change the code to avoid the possibility of a ZeroDivisionError?
+Uncertain
