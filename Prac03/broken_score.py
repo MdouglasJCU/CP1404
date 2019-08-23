@@ -1,17 +1,3 @@
-def main():
-    score = float(input("Enter score: "))
-    print(calculate_score(score))
-
-
-def calculate_score(score):
-    if score < 0 or score > 100:
-        return "Invalid score"
-    elif score >= 90:
-        return "Excellent"
-    elif score >= 50:
-        return "Passable"
-    else:
-        return "Bad"
-
-
-main()
+text = "Enjoy the test"
+result = text.strip().split()[0]
+print(result)

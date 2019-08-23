@@ -14,5 +14,4 @@ while sales >= 0:
         print(sales * .1)
     else:
         print("Negative numbers not accepted, exiting program")
-        exit()
 
