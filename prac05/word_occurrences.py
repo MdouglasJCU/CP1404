@@ -6,7 +6,7 @@ get_text = input("Enter your text: ")
 words = get_text.split()
 
 # iterates through words, adding each word to count_words then counts each word by 1
-for i in words:
+for word in words:
     frequency = count_words.get(i, 0)
     count_words[i] = frequency + 1
 
@@ -19,5 +19,5 @@ max_length = max((len(word) for word in words))
 
 # iterates through word, so we able to print out a list of the words
 # counted in a presentable format.
-for i in words:
-    print("{:{}} : {}".format(i, max_length, count_words[i]))
+for word in words:
+    print("{:{}} : {}".format(word, max_length, count_words[word]))
