@@ -7,8 +7,8 @@ words = get_text.split()
 
 # iterates through words, adding each word to count_words then counts each word by 1
 for word in words:
-    frequency = count_words.get(i, 0)
-    count_words[i] = frequency + 1
+    frequency = count_words.get(word, 0)
+    count_words[word] = frequency + 1
 
 # sorts words alphabetically
 words = list(count_words.keys())
