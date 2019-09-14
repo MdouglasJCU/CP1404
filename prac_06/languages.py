@@ -6,7 +6,11 @@ def main():
     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)
     visual_basic = ProgrammingLanguage("Visual Basic", "Static", False, 1991)
 
-    print(ruby, python, visual_basic)
+    languages = [ruby, python, visual_basic]
+
+    for i in languages:
+        if i.is_dyanmic():
+            print(i.name)
 
 main()
 
