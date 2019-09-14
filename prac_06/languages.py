@@ -8,9 +8,9 @@ def main():
 
     languages = [ruby, python, visual_basic]
 
-    for i in languages:
-        if i.is_dyanmic():
-            print(i.name)
+    for language in languages:
+        if language.is_dyanmic():
+            print(language.name)
 
 main()
 
