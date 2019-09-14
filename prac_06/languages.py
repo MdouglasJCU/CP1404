@@ -12,5 +12,6 @@ def main():
         if language.is_dyanmic():
             print(language.name)
 
+
 main()
 
