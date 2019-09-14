@@ -16,7 +16,4 @@ def main():
         name = input("Enter your guitars name: ")
 
 
-
-
-
 main()
