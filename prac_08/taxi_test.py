@@ -3,7 +3,7 @@ from taxi import Taxi
 
 def main():
     """Test Taxi class"""
-    taxi = Taxi("Prius 1", 100, 1.23)
+    taxi = Taxi("Prius 1", 100)
     taxi.start_fare()
     taxi.drive(40)
     print("{}.  Current total fare is ${}".format(taxi, taxi.get_fare()))
